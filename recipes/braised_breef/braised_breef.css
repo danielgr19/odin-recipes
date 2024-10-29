@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #efeded;
+}
+
+h1 {
+    font-size: 10rem;
+    padding: 2%;
+    text-align: center;
+}
+
+
+/*CSS to Breef Menu*/
+#menuBreef {
+    margin: auto;
+    padding: 1%;
+    width: 45%;
+    height: 15%;
+
+    font-size: 2rem;
+    background-color: #A2A3A4;
+
+    display: grid;
+    justify-content: center;
+
+    border-radius: 35px;
+}
+
+#menuBreef ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menuBreef ul li {
+    float: left;
+    padding: 0 2rem 0 2rem;
+}
+
+#menuBreef ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+#menuBreef ul li a:hover{
+    color:#666666;
+}
+
+/*CSS to Image*/
+
+#breefImg {
+    margin: auto;
+    margin-top: 1%;
+    width: 40%;
+    height: 40%;
+
+    display: grid;
+    align-content: center;
+}
+
+#breefImg img {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 30px;  
+}
+
+
+/*CSS to Description*/
+#description {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    
+    display: grid;
+    align-content: center;
+
+}
+
+#description h2 {
+    padding: 1% ;
+    font-size: 2.25rem;
+}
+
+#description p {
+    padding: 1%;
+    font-size: 1.25rem;
+
+    text-align: justify;
+}
+
+#ingredients {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    
+    display: grid;
+    align-content: center;
+}
+
+#ingredients h2 {
+    padding: 1% ;
+    font-size: 2.25rem;
+}
+
+#ingredients ul {
+    padding: 1%;
+    margin-left: 1%;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+#ingredients {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    
+    display: grid;
+    align-content: center;
+}
+
+#preparation {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    
+    display: grid;
+    align-content: center;
+}
+
+#preparation h2 {
+    padding: 1% ;
+    font-size: 2.25rem;
+}
+
+#preparation ol {
+    padding: 1%;
+    margin-left: 1%;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+#footer {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    
+    display: grid;
+    align-content: center;
+}
+
+#made  {
+    padding-left:  1%;
+    margin-top: 2%;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+#rights  {
+    padding-left: 1%;
+    font-size: 1.25rem;
+    text-align: justify;
+    padding-bottom: 3%;
+}
+
+

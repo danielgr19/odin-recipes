@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #efeded;
 }
 
 h1 {
@@ -144,6 +144,7 @@ h1 {
     margin-left: 1%;
     font-size: 1.25rem;
     line-height: 2rem;
+    text-align: justify;
 }
 
 #footer {
